@@ -23,7 +23,6 @@ public class Game extends ApplicationAdapter {
 		ball = new Ball(100,100,5,5,3);
 		board = new Board(20,20,80,10,5);
 		bricks = new ArrayList<>();
-
 		for (int i = 0; i < 36; i++) {
 			Brick brick = new Brick(10+100*(i%6),Gdx.graphics.getHeight()-30*((i/6)+1));
 			brick.setId(i);
