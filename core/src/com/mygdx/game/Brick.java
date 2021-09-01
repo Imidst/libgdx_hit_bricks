@@ -29,61 +29,11 @@ public class Brick extends Block {
         draw(shape);
     }
 
-    @Override
-    public boolean getDeathWith(){
-        return deathWith;
-    }
-
-    @Override
-    public void setDeathWith(boolean deathWith){
-        this.deathWith = deathWith;
-    }
-
     public int getId(){
         return id;
     }
 
     public void setId(int id){
         this.id = id;
-    }
-
-    @Override
-    public int getX() {
-        return x;
-    }
-
-    @Override
-    public void setX(int x) {
-        this.x = x;
-    }
-
-    @Override
-    public int getY() {
-        return y;
-    }
-
-    @Override
-    public void setY(int y) {
-        this.y = y;
-    }
-
-    @Override
-    public int getWidth() {
-        return width;
-    }
-
-    @Override
-    public void setWidth(int width) {
-        this.width = width;
-    }
-
-    @Override
-    public int getHeight() {
-        return height;
-    }
-
-    @Override
-    public void setHeight(int height) {
-        this.height = height;
     }
 }
